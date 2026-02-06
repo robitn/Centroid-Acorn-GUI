@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ab4d="clr-namespace:Ab4d.SharpEngine.AvaloniaUI;assembly=Ab4d.SharpEngine.AvaloniaUI" x:Class="CentroidAcornGUI.MainWindow" Title="Centroid Acorn GUI" Width="1200" Height="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+        <!-- Top row -->
+        <Border Grid.Row="0" Grid.Column="0" Background="LightGray" />
+        <ab4d:SharpEngineSceneView x:Name="SceneView" Grid.Row="0" Grid.Column="1" />
+        <Border Grid.Row="0" Grid.Column="2" Background="LightGray" />
+        <!-- Bottom row spans 3 columns -->
+        <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Background="Gray" />
+    </Grid>
+</Window>

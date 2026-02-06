@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/timber/Documents/SoftwareDev/source/repos/Centroid-Acorn-GUI/Centroid-Acorn-GUI.csproj": {}
+  },
+  "projects": {
+    "/Users/timber/Documents/SoftwareDev/source/repos/Centroid-Acorn-GUI/Centroid-Acorn-GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timber/Documents/SoftwareDev/source/repos/Centroid-Acorn-GUI/Centroid-Acorn-GUI.csproj",
+        "projectName": "Centroid-Acorn-GUI",
+        "projectPath": "/Users/timber/Documents/SoftwareDev/source/repos/Centroid-Acorn-GUI/Centroid-Acorn-GUI.csproj",
+        "packagesPath": "/Users/timber/.nuget/packages/",
+        "outputPath": "/Users/timber/Documents/SoftwareDev/source/repos/Centroid-Acorn-GUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timber/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ab4d.SharpEngine": {
+              "target": "Package",
+              "version": "[2.0.8744, )"
+            },
+            "Ab4d.SharpEngine.AvaloniaUI": {
+              "target": "Package",
+              "version": "[2.0.8744, )"
+            },
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.11, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.11, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.11, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
